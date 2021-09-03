@@ -1,0 +1,35 @@
+.project {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: coral;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.description {
+    margin-bottom: 20px;
+    color: #001410;
+    font-weight: bold;
+    font-size: 18px;
+}
+.technologies {
+    margin-top: 10px;
+    color: #001410;
+    font-weight: bold;
+    font-size: 18px;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: coral;
+}
+a:hover {
+    color: #001410;
+}

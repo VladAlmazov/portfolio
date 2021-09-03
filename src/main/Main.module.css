@@ -1,0 +1,27 @@
+.mainBlock {
+    height: 100vh;
+    background-color: darkslategrey;
+    flex-wrap: wrap;
+}
+
+.text {
+    width: 500px;
+    color: coral;
+    text-align: center;
+    font-size: 18px;
+}
+
+.photo img {
+    width: 350px;
+    height: 350px;
+    background-color: #aeffa6;
+}
+
+ul a {
+    text-decoration: underline;
+}
+
+.about {
+    text-align: left;
+    font-size: 18px;
+}

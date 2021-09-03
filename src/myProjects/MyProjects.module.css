@@ -1,0 +1,16 @@
+.projectsBlock {
+    height: 100vh;
+    background-color: darkslategrey;
+}
+.projectsContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title {
+    color: coral;
+}
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

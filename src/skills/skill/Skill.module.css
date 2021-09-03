@@ -1,0 +1,13 @@
+.skill {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: coral;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
