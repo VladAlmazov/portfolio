@@ -1,6 +1,7 @@
 .footerBlock {
     height: auto;
     background-color: darkslategrey;
+    width: auto;
 }
 
 .footerContainer {
