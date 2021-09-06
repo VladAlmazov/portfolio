@@ -19,7 +19,6 @@ export function Main() {
                         <li>Опыт в разработке 6 месяцев(обучение)</li>
                         <li>Живу в Киеве, но готов к переезду во Львов(приоритетно) или Ивано-Франковск</li>
                     </ul>
-
                 </div>
                 <div className={style.photo}>
                     <img alt={'avatar'} src={avatar}/>

@@ -1,5 +1,5 @@
 .mainBlock {
-    height: 100vh;
+    height: auto;
     background-color: darkslategrey;
     flex-wrap: wrap;
 }
