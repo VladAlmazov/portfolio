@@ -1,5 +1,5 @@
 .footerBlock {
-    height: 20vh;
+    height: auto;
     background-color: darkslategrey;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .links {
-    width: 500px;
+    width: auto;
     background-color: darkslategrey;
     display: flex;
     justify-content: space-around;

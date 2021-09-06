@@ -1,6 +1,7 @@
 .contactsBlock {
-    height: 100vh;
+    height: auto;
     background-color: #001410;
+    padding: 50px 0;
 }
 
 .contactsContainer {
@@ -20,7 +21,7 @@
     flex-wrap: wrap;
 }
 .contacts textarea {
-    margin: 10px 0px;
+    margin: 10px 0;
     resize: none;
     overflow: auto;
     min-height: 100px;
@@ -33,7 +34,7 @@
 
 .contacts input {
     padding: 5px;
-    margin: 5px 0px;
+    margin: 5px 0;
     background-color: darkslategrey;
     border-color: coral;
     outline: none;

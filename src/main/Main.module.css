@@ -2,6 +2,7 @@
     height: auto;
     background-color: darkslategrey;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .text {
