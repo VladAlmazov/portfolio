@@ -13,43 +13,44 @@ export function MyProjects() {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <a name={'projects'}></a>
+                <a name={'projects'}/>
                 <h2 className={style.title}>Проекты</h2>
                 <div className={style.projects}>
                     <Project title={'TodoList'}
                              description={'SPA приложение которое можно использовать для записи важных дел, планов, составления списков и прочее.'}
                              technologies={'React+Redux, Typescript, Material UI, CSS, Axios'}
-                             link={'https://github.com/VladAlmazov/todolist'}
+                             gitHubLink={'https://github.com/VladAlmazov/todolist'}
                              icon={todolist}
                     />
                     <Project title={'Social Network'}
                              description={'Большая социальная сеть с такими возможностями как авторизация, добавление постов в профиль, отправкой сообщений, добавление/удаление друзей и прочее.'}
                              technologies={'React+Redux, Typescript, Ajax, CSS, Axios'}
-                             link={'https://github.com/VladAlmazov/social_network'}
+                             gitHubLink={'https://github.com/VladAlmazov/social_network'}
                              icon={socialNetwork}
                     />
                     <Project title={'Native JS(Unit Testing)'}
                              description={'Базовый нативный JS для лучшего понимая происходящего в React, покрыт тестами.'}
                              technologies={'React, Typescript, Unit tests'}
-                             link={'https://github.com/VladAlmazov/native-js-hometasks'}
+                             gitHubLink={'https://github.com/VladAlmazov/native-js-hometasks'}
                              icon={unitTesting}
                     />
                     <Project title={'Native JS(Storybook)'}
                              description={'Тот же нативный JS, но уже с использованием хуков React. Также добавлен Storybook.'}
                              technologies={'React, Typescript, Storybook'}
-                             link={'https://github.com/VladAlmazov/react-kabzda-hometasks'}
+                             gitHublink={'https://github.com/VladAlmazov/react-kabzda-hometasks'}
                              icon={storybook}
                     />
                     <Project title={'Native JS(Typescript)'}
                              description={'Нативный JS с использованием Typescript. Реализован конвертер валют.'}
                              technologies={'React+Redux, Typescript, CSS'}
-                             link={'https://github.com/VladAlmazov/native-js-typescript-React_Redux'}
+                             gitHubLink={'https://github.com/VladAlmazov/native-js-typescript-React_Redux'}
                              icon={typescript}
                     />
                     <Project title={'Counter'}
-                             description={'Простой стилизированный счетчик.'}
+                             description={'Стилизированный счетчик.'}
                              technologies={'React, Typescript, CSS'}
-                             link={'https://github.com/VladAlmazov/examination_counter'}
+                             gitHubLink={'https://github.com/VladAlmazov/examination_counter'}
+                             gitHubPagesLink={'https://vladalmazov.github.io/examination_counter/'}
                              icon={counter}
                     />
                 </div>
