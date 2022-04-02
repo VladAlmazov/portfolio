@@ -7,6 +7,7 @@ import unitTesting from '../common/photo/iconProject/unitTesting.jpg'
 import storybook from '../common/photo/iconProject/storybook.png'
 import typescript from '../common/photo/iconProject/typescript.jpeg'
 import counter from '../common/photo/iconProject/counter.png'
+import bootstrap from '../common/photo/iconProject/bootstrap.png'
 
 
 export function MyProjects() {
@@ -52,6 +53,13 @@ export function MyProjects() {
                              gitHubLink={'https://github.com/VladAlmazov/examination_counter'}
                              gitHubPagesLink={'https://vladalmazov.github.io/examination_counter/'}
                              icon={counter}
+                    />
+                    <Project title={'Bootstrap'}
+                             description={'Страница продажи курсов.'}
+                             technologies={'HTML, CSS, Bootstrap5'}
+                             gitHubLink={'https://github.com/VladAlmazov/bootstrap-project'}
+                             gitHubPagesLink={'https://vladalmazov.github.io/bootstrap-project/'}
+                             icon={bootstrap}
                     />
                 </div>
             </div>

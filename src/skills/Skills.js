@@ -13,6 +13,7 @@ import git from '../common/photo/iconSkills/git.png'
 import unitTest from '../common/photo/iconProject/unitTesting.jpg'
 import ajax from '../common/photo/iconSkills/ajax.jpg'
 import axios from '../common/photo/iconSkills/axios.png'
+import bootstrap from '../common/photo/iconSkills/bootstrap.png'
 
 
 export function Skills() {
@@ -34,6 +35,7 @@ export function Skills() {
                     <Skill title={'GitHub'} icon={git}/>
                     <Skill title={'Ajax'} icon={ajax}/>
                     <Skill title={'Axios'} icon={axios}/>
+                    <Skill title={'Bootstrap'} icon={bootstrap}/>
                 </div>
             </div>
         </div>
